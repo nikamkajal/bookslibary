@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    background: url('b3.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+}
+#output{
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.card{
+    padding: 50px;
+    border-radius: 30px;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+}
+#btn{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    align-content: center;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+
+}
